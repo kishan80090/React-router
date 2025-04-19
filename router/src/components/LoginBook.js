@@ -1,6 +1,6 @@
 
-import './Logindesign.css';
-function Login () {
+import './Loginstyle.css';
+function LoginBook () {
     return(
 <div >
     <h1 className='color'>facebook</h1>
@@ -15,10 +15,11 @@ function Login () {
     <br/>
     <br/>
     <button className='botton' >Login in</button>
+
     <h5><a href="#">Forgotten account? Sign up for Facebook</a></h5>
     
  
 </div>
     )
 }
-export default Login;
+export default LoginBook;
