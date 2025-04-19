@@ -89,7 +89,7 @@ function Facebook1() {
         </div>
       </div>
       <div className="gender-section">
-        <label className='margin' >Gender❓</label>
+        <label className='margin1'>Gender❓</label><br/>
         <div className="gender-options">
           <label><input type="radio" name="gender" /> Female</label>
           <label><input type="radio" name="gender" /> Male</label>
@@ -107,7 +107,7 @@ function Facebook1() {
        </a>and<a href="https://www.facebook.com/privacy/policies/cookies/?entry_point=cookie_policy_redirect&entry=0">
         Cookies Policy</a>You may receive SMS notification from us and can opt at any time</p>
       <button className="signup-btn">Sign Up</button><br/><br/>
-      
+
       <Link to="/login"><a > Already have an account? </a></Link>
     </div>
   );

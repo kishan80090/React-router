@@ -2,7 +2,7 @@
 .container {
 
   width: 500px;
-  margin: 40px auto;
+  margin: 30px auto;
   padding: 20px;
   border-radius: 8px;
   border: 2px solid rgb(214, 51, 10);
@@ -20,13 +20,14 @@
   gap: 10px;
   margin-bottom: 10px;
   
-  
 }
 .input input {
   flex: 1;
   padding: 10px;
   margin-left: 10x;
   font-size: 15px;
+  height: 18px;
+  
 }
 .input input:hover {
   border-color: red;
@@ -49,6 +50,8 @@
 .dob-selects {
   display: flex;
   gap: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .dob-selects select {
@@ -68,8 +71,6 @@
   gap: 105px;
   flex-wrap: nowrap;
 }
-
-
 
 .gender-options label {
   display: flex;
@@ -102,7 +103,7 @@
 }
 @media (max-width: 480px) {
   .container {
-    width: 100%;
+    width: 90%;
   }
 
   .input-row {
@@ -119,9 +120,7 @@
     padding: 6px 8px;
   }
 }
-.margin{
-  margin-right: 440px;
-}
+
 .margin1{
   margin-right: 380px;
 }

@@ -8,13 +8,29 @@
     height: 35px;
     font-size: 18px;
     border-radius: 5px;
+
     
 }
-.botton{
-    width: 350px;
+.bott{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: -356px;
+    width: 355px;
     height: 36px;
-    font-size: 20px;
-    background-color: rgb(39, 39, 134);
+    background-color: rgb(31, 31, 124);
     color: white;
+    font-size: 18px;
+}
+.size{
+    padding: 50px;
     
+}
+.link{
+    margin-top: 8%;
+}
+@media screen and (max-width: 600px) {
+    .size {
+        width: 90%;
+        padding: 15px;
+    }
 }

@@ -3,8 +3,9 @@ import { Link } from 'react-router-dom';
 import './Loginstyle.css';
 function LoginBook () {
     return(
-<div >
-    <h1 className='color'>facebook</h1>
+<div className='size' >
+
+    <h1 className='color'>facebook</h1><br/><br/><br/>
     
     
     <h3>Log in to Facebook</h3>
@@ -13,11 +14,12 @@ function LoginBook () {
     <br/>
     <br/>
     <input className='input-text' type='password' placeholder='Password'></input>
-    <br/>
-    <br/>
-    <button className='botton' >Login in</button><br/><br/>
+    <button className='bott' >Login in</button><br/>
+    <div className='link' >
 
-    <a href="#">Forgotten account?</a> <Link to="/facebook"> <a href="#"> Sign up for Facebook</a></Link>
+    < Link to="/com"> <a href="#">Forgotten account?</a></Link>
+     <Link to="/facebook"> <a href="#"> Sign up for Facebook</a></Link>
+    </div>
  
 </div>
     )
