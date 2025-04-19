@@ -1,4 +1,5 @@
 
+import { Link } from 'react-router-dom';
 import './Loginstyle.css';
 function LoginBook () {
     return(
@@ -14,10 +15,9 @@ function LoginBook () {
     <input className='input-text' type='password' placeholder='Password'></input>
     <br/>
     <br/>
-    <button className='botton' >Login in</button>
+    <button className='botton' >Login in</button><br/><br/>
 
-    <h5><a href="#">Forgotten account? Sign up for Facebook</a></h5>
-    
+    <a href="#">Forgotten account?</a> <Link to="/facebook"> <a href="#"> Sign up for Facebook</a></Link>
  
 </div>
     )

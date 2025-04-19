@@ -1,6 +1,7 @@
-import './Facedesign.css';
+import { Link } from 'react-router-dom';
+import './Facedesign1.css';
 
-function Facebook() {
+function Facebook1() {
   return (
     <div className="container">
       <h1 className="logo">facebook</h1>
@@ -105,10 +106,10 @@ function Facebook() {
        <a href="https://www.facebook.com/privacy/policy/?entry_point=data_policy_redirect&entry=0"> Privacy Policy
        </a>and<a href="https://www.facebook.com/privacy/policies/cookies/?entry_point=cookie_policy_redirect&entry=0">
         Cookies Policy</a>You may receive SMS notification from us and can opt at any time</p>
-      <button className="signup-btn">Sign Up</button>
-      <h3 className='color' ><a href="#"> Already have an account? </a></h3>
+      <button className="signup-btn">Sign Up</button><br/><br/>
+      
+      <Link to="/login"><a > Already have an account? </a></Link>
     </div>
   );
 }
-
-export default Facebook;
+export default Facebook1;

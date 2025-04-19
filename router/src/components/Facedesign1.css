@@ -97,12 +97,9 @@
   font-size: 16px;
   cursor: pointer;
 }
-
 .signup-btn:hover {
   background-color: #e71607;
 }
-
-
 @media (max-width: 480px) {
   .container {
     width: 100%;
@@ -130,4 +127,5 @@
 }
 .color{
   color: rgb(5, 180, 250);
+  
 }
