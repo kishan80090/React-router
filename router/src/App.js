@@ -7,7 +7,7 @@ import LoginBook from './components/LoginBook';
 import Facecom  from './components/Facecom';
 function App() {
   return (
-    <div className='App' > 
+    <div className='App'> 
       <Router>
     <Routes>
     <Route path="/" element={<Datastore1/>}/>
