@@ -16,8 +16,7 @@ function LoginBook () {
     <input className='input-text' type='password' placeholder='Password'></input>
     <button className='bott' >Login in</button><br/>
     <div className='link' >
-
-    < Link to="/com"> <a href="#">Forgotten account?</a></Link>
+        
      <Link to="/"> <a href="#"> Sign up for Facebook</a></Link>
     </div>
  

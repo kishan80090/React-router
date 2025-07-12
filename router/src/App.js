@@ -10,7 +10,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Facebook1 />} />
         <Route path="/login" element={<LoginBook/>}/>
-        {/* <route path="/com" element={<Facecom/>}/> */}
       </Routes>
     </BrowserRouter>
   );

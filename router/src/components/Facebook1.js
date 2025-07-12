@@ -13,7 +13,7 @@ function Facebook1() {
       </div>
       
       <div className="dob-section">
-        <label className='margin1' >Date of birth❓</label>
+        <label className='margin1'>DOb❓</label>
         <div className="dob-selects">
           <select>
             <option>1</option>
