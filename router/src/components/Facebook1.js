@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import './Facedesign1.css';
-
 function Facebook1() {
   return (
     <div className="container">

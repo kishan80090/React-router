@@ -1,75 +1,88 @@
-
+/* Base styles */
 .container {
-
-  width: 500px;
+  max-width: 500px;
   margin: 30px auto;
   padding: 20px;
   border-radius: 8px;
   border: 2px solid rgb(214, 51, 10);
- 
+  box-sizing: border-box;
 }
+
 .logo {
   color: #1877f2;
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 10px;
+  text-align: center;
 }
 
+/* Input rows */
 .input {
   display: flex;
+  flex-direction: row;
   gap: 10px;
   margin-bottom: 10px;
-  
 }
+
 .input input {
   flex: 1;
   padding: 10px;
-  margin-left: 10x;
   font-size: 15px;
-  height: 18px;
-  
+  height: 38px;
+  box-sizing: border-box;
 }
+
 .input input:hover {
-  border-color: red;
+  border: 1px solid red;
 }
+
+/* Full-width input */
 .input-full input {
-  width: 97%;
-  padding: 5px;
+  width: 100%;
+  padding: 10px;
   font-size: 16px;
+  box-sizing: border-box;
   margin-bottom: 10px;
 }
+
+/* Date of birth section */
 .dob-section {
   margin-bottom: 15px;
 }
-.dob-section label
- {
+
+.dob-section label {
   display: block;
   margin-bottom: 5px;
+  font-weight: bold;
 }
 
 .dob-selects {
   display: flex;
   gap: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 .dob-selects select {
   flex: 1;
   padding: 8px;
   font-size: 14px;
+  box-sizing: border-box;
 }
+
+/* Gender section */
 .gender-section {
   margin-bottom: 20px;
 }
+
 .gender-section label {
   display: block;
   margin-bottom: 5px;
+  font-weight: bold;
 }
+
 .gender-options {
   display: flex;
-  gap: 105px;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .gender-options label {
@@ -79,15 +92,16 @@
   border: 1px solid #ccc;
   border-radius: 6px;
   cursor: pointer;
-  white-space: nowrap;
   font-size: 14px;
+  white-space: nowrap;
+  transition: background-color 0.3s ease;
 }
 
 .gender-options input {
   margin-right: 5px;
 }
 
-
+/* Signup Button */
 .signup-btn {
   width: 100%;
   padding: 12px;
@@ -97,34 +111,63 @@
   border-radius: 6px;
   font-size: 16px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
+
 .signup-btn:hover {
   background-color: #e71607;
 }
-@media (max-width: 480px) {
-  .container {
-    width: 90%;
+
+/* Color and margin utility */
+.margin1 {
+  margin-right: 380px;
+}
+
+.color {
+  color: rgb(5, 180, 250);
+}
+
+/* Mobile and tablet responsiveness */
+@media (max-width: 768px) {
+  .input {
+    flex-direction: column;
   }
 
-  .input-row {
+  .dob-selects {
     flex-direction: column;
   }
 
   .gender-options {
-    gap: 5px;
-    font-size: 13px;
-    flex-wrap: nowrap; 
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .margin1 {
+    margin-right: 0;
+  }
+
+  .logo {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .signup-btn {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .logo {
+    font-size: 24px;
   }
 
   .gender-options label {
-    padding: 6px 8px;
+    padding: 6px 10px;
+    font-size: 13px;
   }
-}
-
-.margin1{
-  margin-right: 380px;
-}
-.color{
-  color: rgb(5, 180, 250);
-  
 }

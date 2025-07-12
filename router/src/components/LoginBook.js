@@ -18,7 +18,7 @@ function LoginBook () {
     <div className='link' >
 
     < Link to="/com"> <a href="#">Forgotten account?</a></Link>
-     <Link to="/facebook"> <a href="#"> Sign up for Facebook</a></Link>
+     <Link to="/"> <a href="#"> Sign up for Facebook</a></Link>
     </div>
  
 </div>
